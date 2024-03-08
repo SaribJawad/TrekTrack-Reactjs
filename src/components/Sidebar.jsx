@@ -1,5 +1,4 @@
 import { Link, Outlet } from "react-router-dom";
-import Footer from "./Footer";
 import styles from "./Sidebar.module.css";
 import AppNav from "./AppNav";
 
@@ -11,8 +10,6 @@ function Sidebar() {
       </Link>
       <AppNav />
       <Outlet />
-
-      <Footer />
     </div>
   );
 }
